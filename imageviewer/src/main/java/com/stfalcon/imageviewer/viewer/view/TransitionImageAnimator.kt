@@ -33,7 +33,7 @@ internal class TransitionImageAnimator(
 ) {
 
     companion object {
-        private const val TRANSITION_DURATION_OPEN = 200L
+        private const val TRANSITION_DURATION_OPEN = 300L
         private const val TRANSITION_DURATION_CLOSE = 250L
     }
 
