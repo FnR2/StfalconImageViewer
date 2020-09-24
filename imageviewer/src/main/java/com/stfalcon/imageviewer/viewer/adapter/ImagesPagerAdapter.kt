@@ -68,6 +68,7 @@ internal class ImagesPagerAdapter<T>(
 
         fun bind(position: Int) {
             this.position = position
+            photoView.tag = images[position]
             imageLoader.loadImage(photoView, images[position])
         }
 
